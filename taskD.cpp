@@ -1,3 +1,4 @@
+// Комментарий
 #include <iostream>
 #include <cmath>
 #include <numbers>
