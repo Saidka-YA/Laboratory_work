@@ -1,80 +1,47 @@
 #include <iostream>
-#include <vector>
-#include <stdio.h>
-#include <string>
-
+#include <cmath>
+//sdfsddsfsfd
 using namespace std;
-vector<string>WatchList;
 
-void SomeOptions()
+
+int main()
 {
-    cout << "\nOptions: " << endl;
-    cout << "1. Add one element" << endl;
-    cout << "2. Delete one element" << endl;
-    cout << "3. See all options" << endl;
-    cout << "4. Exit" << endl;
-}
-
-void addElem()
-{
-    cout << "\nEnter add element: ";
-    string element;
-    getline(cin, element);
-    WatchList.push_back(element);
-}
-
-void delElem()
-{
-    if (WatchList.empty())
-    {
-        cout << "\nError: list is empty!" << endl;
-        return;
-    }
-    for (size_t i = 0; i < WatchList.size(); ++i)
-    {
-        cout << i + 1 << '.' << WatchList[i] << endl;
-    }
-    cout << "Select element to delete: " << endl;
-    size_t elm;
-    cin >> elm;
-    cin.ignore();
-    if (elm > 0 && elm <= WatchList.size())
-    {
-        WatchList.erase(WatchList.begin() + elm - 1);
-    }
-    else {
-        cout << "\nElement not existance!" << endl;
-    }
-}
-
-void viewList()
-{
-    if (WatchList.empty())
-    {
-        cout << "\nError: the list is empty!" << endl;
-    }
-    else {
-        cout << "\nContained of list: " << endl;
-    }
-    for (size_t i = 0; i < WatchList.size(); ++i)
-    {
-        cout << i + 1 << '.' << WatchList[i] << endl;
-    }
-}
-
-int main () {
-    int option;
-    do
-    {
-        SomeOptions();
-        cout << "Enter a option: ";
-        cin >> option;
-        cin.ignore();
-        switch(option)
-        {
-            case 1: addElem(); break;
-            case 2: delElem(); break;
-            case 3: viewList(); break;
+    double lenght, width;
+    cout << "Enter lenght: ";
+    cin >> lenght;
+    while (cin.fail() || lenght <= 0) {
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore();
+            cout << "Please enter a NUMBER!: " << endl;
         }
-    } while (option != 4);
+        else {
+            cout << "Invalid number! Enter a correct number: " << endl;
+        }
+        cin >> lenght;
+    }
+
+    cout << "Enter width: ";
+    cin >> width;
+    while (cin.fail() || width <= 0) {
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore();
+            cout << "Please enter a NUMBER!: " << endl;
+        }
+        else {
+            cout << "Invalid number! Enter a correct number: " << endl;
+        }
+        cin >> width;
+    }
+
+    double perimetr = 2 * (lenght + width);
+    double square = lenght * width;
+    double diagonal = sqrt(lenght * lenght + width * width);
+
+    cout << "perimetr: " << perimetr  << endl;
+    cout << "square: " << square << endl;
+    cout << "diagonal lenght: " << diagonal << endl; 
+
+    return 0;
 }
