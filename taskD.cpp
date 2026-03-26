@@ -1,4 +1,4 @@
-// Комментарий
+// Кidsvjnvonoivnwoenvownovnownvweniovnewonv
 #include <iostream>
 #include <cmath>
 #include <numbers>
