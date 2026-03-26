@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+//ivnivninv
 using namespace std;
 
 int main() {
@@ -149,7 +149,6 @@ int main() {
     } while (choice != 0);
 
     return 0;
-//DCTV GHBDTB
 
 
 }
