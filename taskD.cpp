@@ -1,4 +1,4 @@
-// Комментарий
+// eubvuiwbvuibwuivbuewbvuibew
 #include <iostream>
 #include <cmath>
 #include <numbers>
