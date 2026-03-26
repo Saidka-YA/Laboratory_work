@@ -8,7 +8,7 @@ void options();
 double circumference();
 double squareCirсle();
 double circleSektorS();
-
+//дима крутой
 int main()
 {
     int option;
