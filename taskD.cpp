@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Кidsvjnvonoivnwoenvownovnownvweniovnewonv
+=======
+// eubvuiwbvuibwuivbuewbvuibew
+>>>>>>> 2b79e8f336aa740b48f106fd6a8c2cf441a162ce
 #include <iostream>
 #include <cmath>
 #include <numbers>
