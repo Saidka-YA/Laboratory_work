@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-//sdfsddsfsfd
+
 using namespace std;
 
 
