@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+//sdfsdfgdsgosdbgbDIMA LOX EBVANSUISGFI KOLIVAN
 using namespace std;
 
 
