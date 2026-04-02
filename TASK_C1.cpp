@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+//я крутой виталя
 using namespace std;
 
 int main() {
