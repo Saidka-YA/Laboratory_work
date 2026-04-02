@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
-//ivnivninv
+
 using namespace std;
-//дима крутойш
+
 int main() {
     setlocale(LC_ALL, "rus");
     double a, b, c, d;
