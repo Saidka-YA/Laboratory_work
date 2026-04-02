@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cmath>
-//я крутой виталя
-//ommomomom
+
 using namespace std;
 
 int main() {
