@@ -2,7 +2,7 @@
 #include <cmath>
 //wydwycywfdsvuvbeuvuebvybvewbfvuewbfvwefywfd
 using namespace std;
-
+//iiiiiiiiiiiiiiiiiiiiiiiiiii
 int main() {
     setlocale(LC_ALL, "rus");
     double a, b, c, d;
