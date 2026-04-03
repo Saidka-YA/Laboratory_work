@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+//vsem privet
 int main() {
     setlocale(LC_ALL, "rus");
     double a, b, c, d;
